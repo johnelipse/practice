@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 1rem 1rem;
+}
+h3 {
+  font-size: 20px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.connections {
+  display: flex;
+  gap: 1rem;
+}
+.submissionForm {
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  width: 50%;
+  height: 16rem;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+input {
+  margin-top: 0.3rem;
+  color: white;
+  background-color: transparent;
+  border: 1px solid gray;
+  outline: none;
+  padding: 0.3rem 0.5rem;
+}
+.submitBtn {
+  padding: 0.3rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  background-color: brown;
+  color: white;
+  &:hover {
+    background-color: blue;
+    transition: 1s;
+  }
+}
+.btn {
+  text-align: end;
+}
+.connectionInfo {
+  width: 50%;
+  /* display: flex; */
+  overflow: hidden;
+  text-align: center;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding: 1rem;
+  /* background-color: red; */
+}
+.connectionTitles {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 11.5rem;
+  /* justify-content: space-between; */
+}
+.connectionDetails {
+  display: flex;
+  /* margin-top: 1rem; */
+  /* align-items: center; */
+  /* text-align: center; */
+  gap: 0rem;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+  /* background-color: green; */
+  width: 100%;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+/* .major {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: black;
+  flex-direction: column;
+} */
